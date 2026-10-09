@@ -8,6 +8,11 @@ button,a{ -webkit-tap-highlight-color:transparent }
 button{font:inherit}
 a{color:inherit;text-decoration:none}
 img{display:block;max-width:100%}
+.icon{display:inline-block;width:1em;height:1em;flex:none;vertical-align:-.12em;pointer-events:none}
+.product-spark,.more-proof-star,.note-icon{display:inline-flex;align-items:center;justify-content:center}
+.footer-bottom a .icon{margin-left:.25em}
+.view-image .icon{margin-left:.2em}
+.dialog-arrow,.dialog-close{display:grid;place-items:center}
 em{font-style:normal;color:var(--lime)}
 ::selection{background:var(--lime);color:var(--ink)}
 :focus-visible{outline:3px solid var(--lime-dark);outline-offset:4px}
@@ -204,7 +209,7 @@ em{font-style:normal;color:var(--lime)}
 .footer-links{display:grid;grid-template-columns:1fr 1fr;gap:30px}
 .footer-links>div{display:flex;flex-direction:column;align-items:start;gap:12px}
 .footer-links>div>span{color:#93a28d;margin-bottom:8px}
-.footer-links a{font-size:15px;font-weight:700;line-height:1.35}
+.footer-links a{display:inline-flex;align-items:center;gap:6px;font-size:15px;font-weight:700;line-height:1.35}
 .footer-links a:hover{color:var(--lime)}
 .footer-bottom{border-top:1px solid #4e584c;display:flex;justify-content:space-between;gap:20px;padding-top:22px;font-size:10px;font-weight:800;letter-spacing:.14em;color:#a7b3a2}
 .footer-bottom a:hover{color:var(--lime)}

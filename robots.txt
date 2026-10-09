@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://prokudin-m.ru/sitemap.xml
